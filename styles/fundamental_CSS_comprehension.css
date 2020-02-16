@@ -1,0 +1,46 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+section { 
+  background-color: #03A9F4;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -125px;
+}
+
+header {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  font-weight: bold;
+}
+
+p {
+  position: relative;
+  left: 30px;
+  top:90px;
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  position: absolute;
+  left: 270px;
+  top:70px;
+}
+
+footer {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  font-family:serif;
+}
