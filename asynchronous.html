@@ -1,6 +1,20 @@
 <html>
-<head>
-</head>
-<body>
-</body>
+  <head>
+    <link rel="stylesheet" href="styles/asynchronous.css"></link>
+  </head>
+  <body>
+    <div id="text1">
+    <div id="prompt">请输入字母:</div>
+    <form><input id="text" type="text" onkeyup="showHint(this.value)"></form>
+    <div id="hint"></div>
+    </div>
+  </body>
+  <script>
+    function showHint(str) {
+        var xmlhttp;
+        if (str.length==0) {
+            document.getElementById("text1").innerHTML = "";
+        }
+    }
+  </script>
 </html>
