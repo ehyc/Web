@@ -1,17 +1,17 @@
-#winning {
-	background-color: red;
-	border: 2px solid black;
+p {
+  background-color: rgba(245, 83, 164, 0.83);
+  color: #efebeb;
+  padding: 5px;
 }
 
-.better {
-	background-color: gray;
+.p_container {
+	background-color: rgb(130, 128, 128);
 	border: none !important;
 }
 
-p {
-  background-color: blue;
-  color: white;
-  padding: 5px;
+#p {
+	background-color: rgb(255, 0, 0);
+	border: 2px solid rgb(0, 0, 0);
 }
 
 /* specificity: 0101 */
